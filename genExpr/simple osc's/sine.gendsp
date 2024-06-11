@@ -1,0 +1,5 @@
+phasor_1 = phasor(in1, 0);
+rate_2 = rate(phasor_1, in2);
+mul_3 = rate_2 * 6.28;
+cos_4 = cos(mul_3);
+out1 = cos_4;

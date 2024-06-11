@@ -1,0 +1,6 @@
+phasor_1 = phasor(in1, 0);
+rate_2 = rate(phasor_1, in2);
+mul_3 = rate_2 * 2.;
+sub_4 = mul_3 - 1.;
+abs_5 = abs(sub_4);
+out1 = abs_5;

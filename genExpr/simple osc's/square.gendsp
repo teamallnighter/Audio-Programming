@@ -1,0 +1,4 @@
+phasor_1 = phasor(in1, 0);
+rate_2 = rate(phasor_1, in2);
+gte_3 = rate_2 >= 0.5;
+out1 = gte_3;
