@@ -1,0 +1,83 @@
+{
+  "parameters": [
+    {
+      "type": "ParameterTypeNumber",
+      "index": 0,
+      "name": "subdivide",
+      "paramId": "subdivide",
+      "minimum": 1,
+      "maximum": 128,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 1,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    }
+  ],
+  "numParameters": 1,
+  "numSignalInParameters": 0,
+  "numSignalOutParameters": 0,
+  "numInputChannels": 0,
+  "numOutputChannels": 5,
+  "numMidiInputPorts": 0,
+  "numMidiOutputPorts": 0,
+  "transportUsed": true,
+  "externalDataRefs": [],
+  "patcherSerial": 0,
+  "inports": [],
+  "outports": [],
+  "inlets": [],
+  "outlets": [
+    {
+      "type": "signal",
+      "index": 1,
+      "tag": "out1",
+      "meta": "",
+      "comment": "sine"
+    },
+    {
+      "type": "signal",
+      "index": 2,
+      "tag": "out2",
+      "meta": "",
+      "comment": "saw"
+    },
+    {
+      "type": "signal",
+      "index": 3,
+      "tag": "out3",
+      "meta": "",
+      "comment": "square"
+    },
+    {
+      "type": "signal",
+      "index": 4,
+      "tag": "out4",
+      "meta": "",
+      "comment": "triangle"
+    },
+    {
+      "type": "signal",
+      "index": 5,
+      "tag": "out5",
+      "meta": "",
+      "comment": "random"
+    }
+  ],
+  "presetid": "rnbo",
+  "meta": {
+    "architecture": "x64",
+    "filename": "bdsynclfo1.amxd",
+    "rnboobjname": "synclfo",
+    "maxversion": "8.6.0",
+    "rnboversion": "1.3.1",
+    "name": "untitled"
+  }
+}
