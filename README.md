@@ -1,2 +1,2 @@
 # Audio Programming
- Max for live, C++, Juce, genExpr, etc. 
+ Max MSP, C++, Juce, genExpr, HISE etc. 
