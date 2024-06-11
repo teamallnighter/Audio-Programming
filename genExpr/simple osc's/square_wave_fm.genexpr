@@ -1,0 +1,10 @@
+mul_1 = in1 * in2;
+cycle_2, cycleindex_3 = cycle(mul_1);
+add_4 = in1 + cycle_2;
+cycle_5, cycleindex_6 = cycle(in3);
+mul_7 = mul_1 * cycle_5;
+mul_8 = cycle_2 * mul_7;
+mul_9 = add_4 * mul_8;
+phasor_10 = phasor(mul_9, 0);
+gte_11 = phasor_10 >= 0.5;
+out1 = gte_11;
