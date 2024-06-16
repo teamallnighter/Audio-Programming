@@ -1,0 +1,207 @@
+{
+  "parameters": [
+    {
+      "type": "ParameterTypeNumber",
+      "index": 0,
+      "name": "input_type",
+      "paramId": "input_type",
+      "minimum": 0,
+      "maximum": 1,
+      "exponent": 1,
+      "steps": 2,
+      "initialValue": 0,
+      "isEnum": true,
+      "enumValues": [
+        "freq_in",
+        "midi_in"
+      ],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 1,
+      "name": "rampsamples",
+      "paramId": "rampsamples",
+      "minimum": 1,
+      "maximum": 48000,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 0,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 2,
+      "name": "lowpass",
+      "paramId": "lowpass",
+      "minimum": 20,
+      "maximum": 1000,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 150,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 3,
+      "name": "lowpass_q",
+      "paramId": "lowpass_q",
+      "minimum": 0,
+      "maximum": 1,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 0.5,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 4,
+      "name": "rise",
+      "paramId": "rise",
+      "minimum": 0,
+      "maximum": 10000,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 0,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 5,
+      "name": "sub_octaves",
+      "paramId": "sub_octaves",
+      "minimum": 0,
+      "maximum": 2,
+      "exponent": 1,
+      "steps": 3,
+      "initialValue": 1,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    },
+    {
+      "type": "ParameterTypeNumber",
+      "index": 6,
+      "name": "fall",
+      "paramId": "fall",
+      "minimum": 0,
+      "maximum": 10000,
+      "exponent": 1,
+      "steps": 0,
+      "initialValue": 0,
+      "isEnum": false,
+      "enumValues": [],
+      "displayName": "",
+      "unit": "",
+      "order": 0,
+      "debug": false,
+      "visible": true,
+      "signalIndex": null,
+      "ioType": "IOTypeUndefined"
+    }
+  ],
+  "numParameters": 7,
+  "numSignalInParameters": 0,
+  "numSignalOutParameters": 0,
+  "numInputChannels": 1,
+  "numOutputChannels": 2,
+  "numMidiInputPorts": 1,
+  "numMidiOutputPorts": 0,
+  "transportUsed": false,
+  "externalDataRefs": [],
+  "patcherSerial": 0,
+  "inports": [
+    {
+      "tag": "in2",
+      "meta": ""
+    }
+  ],
+  "outports": [],
+  "inlets": [
+    {
+      "type": "signal",
+      "index": 1,
+      "tag": "in1",
+      "meta": ""
+    },
+    {
+      "type": "event",
+      "index": 2,
+      "tag": "in2",
+      "meta": "",
+      "comment": "freq_in"
+    },
+    {
+      "type": "midi"
+    }
+  ],
+  "outlets": [
+    {
+      "type": "signal",
+      "index": 1,
+      "tag": "out1",
+      "meta": "",
+      "comment": "audio_out"
+    },
+    {
+      "type": "signal",
+      "index": 2,
+      "tag": "out2",
+      "meta": "",
+      "comment": "envelope_out"
+    }
+  ],
+  "presetid": "rnbo",
+  "meta": {
+    "architecture": "x64",
+    "filename": "Sub Generator VST.maxpat",
+    "rnboobjname": "subgen",
+    "maxversion": "8.6.2",
+    "rnboversion": "1.3.1",
+    "name": "untitled"
+  }
+}
